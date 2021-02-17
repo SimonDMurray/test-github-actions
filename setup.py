@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Simon", 
-    version="0.0.6",
+    version="0.0.7",
     description="Test GitHub Actions",
     url="https://github.com/pittachalk/sc3s",
     author="Simon",
