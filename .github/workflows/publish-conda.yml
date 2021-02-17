@@ -1,4 +1,4 @@
-name: publishi-conda
+name: publish-conda
 
 on:
   release:
