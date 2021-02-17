@@ -1,0 +1,7 @@
+setup.py
+Simon.egg-info/PKG-INFO
+Simon.egg-info/SOURCES.txt
+Simon.egg-info/dependency_links.txt
+Simon.egg-info/requires.txt
+Simon.egg-info/top_level.txt
+test/test_3.py
