@@ -1,5 +1,5 @@
 {% set name = "Simon" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://test.pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 64780c6a67d334ee94db8bc3e662027d4af047d6a0307fb2a9b5e9ce61f73b0d
+  sha256: 1bb2048d40e69bd2a329a281787bf218b54ab0716e9c9d75d0411159d0b3efef
 
 build:
   number: 0
@@ -18,18 +18,20 @@ requirements:
     - numpy >=1.19.1
     - pandas >=1.1.3
     - pip
-    - python >=3.6
+    - python
+    - scanpy >=1.6.0
     - scikit-learn >=0.23.2
   run:
     - numpy >=1.19.1
     - pandas >=1.1.3
-    - python >=3.6
+    - python
+    - scanpy >=1.6.0
     - scikit-learn >=0.23.2
 
 about:
-  home: "https://github.com/pittachalk/sc3s"
-  license: BSD
-  license_family: BSD
+  home: "https://github.com/SimonDMurray/test-github-actions/"
+  license: UNKNOWN
+  license_family: OTHER
   license_file: 
   summary: "Test GitHub Actions"
   doc_url: 
@@ -37,4 +39,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - SimonDMurray
+    - your-github-id-here
