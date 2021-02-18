@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Simon", 
-    version="0.0.25",
+    version="0.0.26",
     description="Test GitHub Actions",
     url="https://github.com/SimonDMurray/test-github-actions/",
     author="Simon",
