@@ -4,12 +4,11 @@ setup(
     name="Simon", 
     version="0.0.7",
     description="Test GitHub Actions",
-    url="https://github.com/pittachalk/sc3s",
+    url="https://github.com/SimonDMurray/test-github-actions/",
     author="Simon",
     author_email="sm42@sanger.ac.uk",
     classifiers=[
        "Programming Language :: Python :: 3",
-       "License :: OSI Approved :: BSD License",
        "Operating System :: OS Independent"
     ],
     packages=find_packages(),
