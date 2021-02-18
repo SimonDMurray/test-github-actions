@@ -1,5 +1,5 @@
 {% set name = "Simon" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.24" %}
 
 package:
   name: "{{ name|lower }}"
@@ -17,11 +17,16 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - numpy >=1.19.1
+    - pandas >=1.1.3
+    - python >=3.6
+#   - scanpy >=1.6.0
+    - scikit-learn >=0.23.2
   run:
     - numpy >=1.19.1
     - pandas >=1.1.3
     - python >=3.6
- #   - scanpy >=1.6.0
+#   - scanpy >=1.6.0
     - scikit-learn >=0.23.2
 
 about:
@@ -32,3 +37,7 @@ about:
   summary: "Test GitHub Actions"
   doc_url: 
   dev_url: 
+  
+ extra:
+  recipe-maintainers:
+    - SimonDMurray
