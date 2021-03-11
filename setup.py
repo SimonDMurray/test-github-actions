@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Simon", 
-    version="0.0.39",
+    name="sc3s-dev", 
+    version="0.0.1",
     description="Test GitHub Actions",
     url="https://github.com/SimonDMurray/test-github-actions/",
     author="Simon",
