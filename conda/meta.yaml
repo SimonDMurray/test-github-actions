@@ -1,5 +1,5 @@
-{% set name = "Simon" %}
-{% set version = "0.0.38" %}
+{% set name = "sc3s-dev" %}
+{% set version = "0.0.1" %}
 
 package:
   name: "{{ name|lower }}"
